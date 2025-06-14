@@ -18,7 +18,7 @@
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
-    "test": "jest",
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": [
