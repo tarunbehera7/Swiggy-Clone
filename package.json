@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "swiggy-clone",
   "version": "0.1.0",
   "proxy": "https://www.swiggy.com",
   "private": true,
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "npx parcel index.html --port 3000",
-    "build": "npx parcel build index.html",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' npx parcel build index.html",
     "test": "jest"
   },
   "browserslist": {
