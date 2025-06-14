@@ -1,23 +1,34 @@
 {
   "name": "swiggy-clone",
   "version": "1.0.0",
-  "scripts": {
-    "start": "npx parcel index.html",
-    "build": "npx parcel build index.html",
-    "test": "jest"
-  },
-  "author": "Tarun Behera",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "parcel": "^2.8.3",
-    "process": "^0.11.10"
-  },
+  "proxy": "https://www.swiggy.com",
+  "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.30.0",
     "react-toastify": "^11.0.5",
     "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "npx parcel index.html --port 3000",
+    "build": "npx parcel build index.html",
+    "test": "jest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
   }
 }
