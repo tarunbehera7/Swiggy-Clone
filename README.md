@@ -1,10 +1,21 @@
 # Swiggy-Clone
 
-A modern React project bootstrapped for learning and rapid development, featuring Parcel as the build tool for blazing-fast bundling and development experience.
+- Web-based food ordering application built with React.js.
+- Developed a responsive UI with dynamic login/logout, real-time API integration, and restaurant search functionality.
+- Implemented seamless multi-page navigation using React Router to enhance user experience.
 
 ![Image](https://github.com/user-attachments/assets/3a46e534-957a-45cb-a7ba-1980b7b2f65e)
 
----
+## 🛠️ Tech Stack
+- JavaScript (ES6+)
+- React.js
+- Parcel
+- Context API
+- React Router DOM
+- Swiggy Public API
+
+A modern React project bootstrapped for learning and rapid development, featuring Parcel as the build tool for blazing-fast bundling and development experience.
+
 ## 🚀 Features
 - **React** for building interactive UIs
 - **Parcel** for zero-config, fast bundling
